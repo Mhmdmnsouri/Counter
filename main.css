@@ -1,0 +1,43 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: honeydew;
+}
+.container h2{
+    margin: 0;
+    font-size: 2vw;
+}
+
+.btnsContainer button {
+    font-size: 1.2vw;
+    padding: 4px 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: khaki;
+}
+
+.btnsContainer :first-child {
+    margin-right: 10px;
+}
+
+#number{
+    font-size: 6vw;
+}
